@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "nodejs sms notification using smpp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
