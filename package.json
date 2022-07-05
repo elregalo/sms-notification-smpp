@@ -1,0 +1,31 @@
+{
+  "name": "sms-notification-smpp",
+  "version": "1.0.0",
+  "description": "nodejs sms notification using smpp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elregalo/sms-notification-smpp.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "node-smpp",
+    "smpp"
+  ],
+  "author": "Moobi Kabelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elregalo/sms-notification-smpp/issues"
+  },
+  "homepage": "https://github.com/elregalo/sms-notification-smpp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "smpp": "^0.6.0-rc.4"
+  }
+}
